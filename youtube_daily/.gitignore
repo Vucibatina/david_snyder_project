@@ -1,0 +1,27 @@
+# Local configuration
+.claude/settings.local.json
+
+# Sensitive data
+cookies.txt
+.env
+
+# Output files
+*.txt
+!requirements.txt
+
+# Data directory (transcripts)
+data/
+
+# Runtime / log files
+.last_run
+*.log
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+*.egg-info/

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+cookies.txt
+
+# OS cruft
+.DS_Store
+
+# Logs
+*.log
+
+# Local Claude settings (machine-specific, not for sharing)
+.claude/settings.local.json
+**/.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Generated data / vector databases (large, regenerable)
+youtube_daily/data/
+youtube_daily/rag_db/
+rag/db/
